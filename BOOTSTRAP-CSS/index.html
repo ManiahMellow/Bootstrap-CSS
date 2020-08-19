@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- NAVIGASI -->
+    <nav class="navbar navbar-light bg-warning navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.jpg" width="150" alt="" loading="hi.low!" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#promo">Promo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">AboutUs</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#exampleModal"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <form class="form-inline">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <!-- SLIDER/CARAUSEL -->
+
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <!-- isi dari slider -->
+        <div class="carousel-inner mt-5 mb-4">
+          <div class="carousel-item active">
+            <img src="images/lepy.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/tablet.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/tipi.jpg" class="d-block" alt="..." />
+          </div>
+        </div>
+        <!-- tombol kiri-kanan -->
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-warning"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-warning"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- JUMBOTRON -->
+
+    <div class="jumbotron p-5 mt-3">
+      <div class="container">
+        <h1 class="display-4">Semarak Merdeka!</h1>
+        <p class="lead mt-2">
+          Bagikan keceriaan di momen kemerdekaan. Semarakkan merdekamu, ceriakan
+          dirimu bersama orang terdekatmu menggunakan produk - produk nyaman di
+          dompet!
+        </p>
+        <hr class="my-4" />
+        <p>
+          Hi.Low! menyediakan berbagai promo kemerdekaan menarik bagi kalian
+          yang ingin memiliki elektronik baru untuk semangat perjuangan yang
+          baru, nantikan info selanjutnya store kami.
+        </p>
+        <a class="btn btn-light btn-outline-dark btn-md" href="#" role="button"
+          >Add To Cart</a
+        >
+      </div>
+    </div>
+
+    <!-- CARD -->
+
+    <div class="container mt-5">
+      <div class="row" id="produk">
+        <div class="col-lg-3 d-flex justify-content-center mb-3">
+          <div class="card border border-warning" style="width: 18rem;">
+            <img src="images/hape.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Grab Your Elegant Phone Now!</h5>
+              <p class="card-text">
+                Promo kemerdekaan hp berkelas atas, Grab yours now!
+                <br />Rp 15.000.000
+              </p>
+              <a href="#" class="btn btn-warning btn-outline-dark"
+                >Take Yours!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center mb-3">
+          <div class="card border border-warning" style="width: 18rem;">
+            <img src="images/tablet.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Simple tablet for your life? Here!</h5>
+              <p class="card-text">
+                Hi.Low! juga membagikan promo tablet untuk kalian semua. Don't
+                miss it!
+                <br />
+                Rp 13.000.000
+              </p>
+              <a href="#" class="btn btn-warning btn-outline-dark"
+                >Take Yours!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center mb-3">
+          <div class="card border border-warning" style="width: 18rem;">
+            <img src="images/lepy.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Your PC is ready for you!</h5>
+              <p class="card-text">
+                Jadi mau bawa pulang PC baru ke rumah kapan? Barang nya udah
+                siap nihh.
+                <br />Rp 12.500.000
+              </p>
+              <a href="#" class="btn btn-warning btn-outline-dark"
+                >Take Yours!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-center">
+          <div class="card border border-warning" style="width: 18rem;">
+            <img src="images/tipi.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title mt-n3">Need big TV? Don't worry!</h5>
+              <p class="card-text mt-n1">
+                Butuh TV berapa inch? Yang besar? Atau yang sedang? Bahkan
+                kecil? Tenang, disini tinggal ambil. Yok!
+                <br />Rp 7.000.000
+              </p>
+              <a href="#" class="btn btn-warning btn-outline-dark"
+                >Take Yours!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTAINER -->
+
+    <div class="container" id="promo">
+      <div
+        class="row mt-5 mb-4 text-center text-warning border border-dark rounded-top"
+      >
+        <div class="col">
+          <h3>Promo Kemerdekaan UP to 65%</h3>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-4">
+          <img src="images/lepy.jpg" width="300" alt="" />
+        </div>
+        <div class="col-lg-8 mt-3">
+          <table class="table table-striped table-borderless">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Barang</th>
+                <th scope="col">Diskon</th>
+                <th scope="col">Merk</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Handphone</td>
+                <td>35%</td>
+                <td>Samsung S20+ Samsung X BTS</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Tablet</td>
+                <td>50%</td>
+                <td>Samsung note-10</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Laptop</td>
+                <td>30%</td>
+                <td>DELL</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Televisi</td>
+                <td>65%</td>
+                <td>Samsung TV</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div
+      class="jumbotron jumbotron-fluid bg-dark text-light mt-3 p-1"
+      id="aboutus"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <p>
+              <strong> <h5>Hi.Low!</h5></strong>
+              Sidoarjo Jawa Timur <br />
+              Indonesia 61522
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p>
+              <strong> <h5>Pembayaran</h5></strong>
+              <strong>BRI</strong> <br />
+              8522309
+              <br />
+              <strong>BCA</strong> <br />
+              8522309
+              <br />
+              <strong>Mandiri</strong> <br />
+              8522309
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p>
+              <strong> <h5>AboutUs</h5></strong>
+              Hi.Low! adalah store yang menjual berbagai merk barang elektronik
+              <br /><br />
+              <strong><h5>Follow Us On:</h5></strong>
+              <strong>Instagram</strong> <br />
+              @Hi.Low!
+              <br />
+              <strong>Twitter</strong> <br />
+              @Hi.Low!
+              <br />
+              <strong>Whatsapp</strong> <br />
+              +6283376903
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <!-- Modal-Konten -->
+
+        <div class="modal-content">
+          <!-- Modal-Header -->
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Form Kontak</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Nama Anda</label>
+                    <input
+                      type="text"
+                      class="form-control btn-outline-warning"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >Isilah data diri anda dengan benar!</small
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-5 col-md-5 col-xs-5">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Alamat Anda</label>
+                    <input
+                      type="text"
+                      class="form-control btn-outline-warning"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-xs-4">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Kota Anda</label>
+                    <input
+                      type="text"
+                      class="form-control btn-outline-warning"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xs-3">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Kode Pos</label>
+                    <input
+                      type="text"
+                      class="form-control btn-outline-warning"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-light btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-warning">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
